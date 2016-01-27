@@ -20,3 +20,4 @@ mvn clean install -DskipTests
 source ~/rm_pc/contrasting/copytodockervm.sh
 cd ~/rm_pc/precontrast_docker_vagrant
 vagrant up
+#8942
