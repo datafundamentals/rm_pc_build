@@ -19,5 +19,7 @@ cd ~/rm_pc/contrasting
 mvn clean install -DskipTests
 source ~/rm_pc/contrasting/copytodockervm.sh
 cd ~/rm_pc/precontrast_docker_vagrant
+cp -R ~/rm_pc/precontrast_docker_vagrant/mysql ~/rm_pc/work
+source ~/rm_pc/work/runaDockerMysql.sh
 vagrant up
 #8942
