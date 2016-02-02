@@ -16,7 +16,8 @@ export RM_PC_REMOTE_REST=http://172.99.79.10:8123/
 export RM_PC_DOCKER_=blah
 #printenv
 cd ~/rm_pc/contrasting
-mvn clean install -DskipTests
+# mvn clean install -DskipTests
+gradle build -x test
 source ~/rm_pc/contrasting/copytodockervm.sh
 cd ~/rm_pc/precontrast_docker_vagrant
 cp -R ~/rm_pc/precontrast_docker_vagrant/mysql ~/rm_pc/work
