@@ -24,4 +24,4 @@ cp -R ~/rm_pc/precontrast_docker_vagrant/mysql ~/rm_pc/work
 cp -R ~/rm_pc/precontrast_docker_vagrant/init ~/rm_pc/work
 source ~/rm_pc/work/runaDockerMysql.sh
 vagrant up
-vagrant shh
+vagrant ssh
