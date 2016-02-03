@@ -13,6 +13,16 @@ rm -rm ~/rm_p*
 Because it is targeted for easy removal all commands are designed to run within ~ 
 
 If you do otherwise, alter commands as necessary.
+#### Known pre-requirements
+
+Still seem to be discovering them...
+
+* Java 1.8
+* JAVA_HOME must be set to the 1.8 jdk parent folder (normal gradle requirement)
+* must be running on a mac? Still testng...
+* gradle
+* vagrant
+
 
 #### If you have run this before (even if it failed)
 
